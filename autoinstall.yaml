@@ -1,6 +1,4 @@
 #cloud-config
-# See the autoinstall documentation at:
-# https://canonical-subiquity.readthedocs-hosted.com/en/latest/reference/autoinstall-reference.html
 autoinstall:
   apt:
     disable_components: []
