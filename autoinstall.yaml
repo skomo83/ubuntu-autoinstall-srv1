@@ -50,6 +50,7 @@ autoinstall:
   oem:
     install: auto
   packages:
+    - openssh-server
     - nala
     - nano
     - haveged
@@ -59,9 +60,11 @@ autoinstall:
     - screen
     - git
     - htop
+    - ntp
     - cifs-utils
     - net-tools
     - zfsutils-linux
+    - ledmon
   source:
     id: ubuntu-desktop-minimal
     search_drivers: true
